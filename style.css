@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+body{
+    background-color: black;
+}
+
+h3 {
+    font-family: 'Exo', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    height: 492px;
+    width: 574px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.taken{
+    background-color: black;
+}
+.grid div:not(.taken){
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.grid div {
+    
+    height: 80px;
+    width: 80px;
+    /*background-color: burlywood;*/
+}
+
+.player-one {
+    background-color: crimson;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.player-two {
+    background-color: darkblue;
+    border-radius: 10px;
+    border: 1px solid white;
+}
